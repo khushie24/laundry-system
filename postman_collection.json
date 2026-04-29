@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Laundry API",
+    "_postman_id": "12345",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Order",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"customerName\": \"Rahul\", \"phone\": \"9876543210\", \"items\": [{\"type\": \"Shirt\", \"quantity\": 2, \"price\": 50}]}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/orders"
+        }
+      }
+    }
+  ]
+}
