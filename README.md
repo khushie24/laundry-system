@@ -98,7 +98,7 @@ Provides:
 
 ### 🔹 Tools Used
 
-* ChatGPT (primary tool for development guidance)
+* ChatGPT/Claude (primary tool for development guidance)
 * GitHub Copilot (minor assistance for autocomplete)
 
 ---
